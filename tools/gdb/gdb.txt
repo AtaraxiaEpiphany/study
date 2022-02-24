@@ -1,0 +1,69 @@
+https://wizardforcel.gitbooks.io/100-gdb-tips/content/select-frame.html
+
+gcc -o source -g source.c
+
+gdb -q   启动时不显示版本信息                                     
+命令	命令缩写	命令说明
+
+list 	l		显示多行源代码
+
+break	b		设置断点,程序运行到断点的位置会停下来
+
+info	i		描述程序的状态
+
+run	r		开始运行程序至断点处
+
+display	disp		跟踪查看某个变量,每次停下来都显示它的值
+
+step	s		执行下一条语句,如果该语句为函数调用,则进入函数执行其			    中的第一条语句
+
+next	n		执行下一条语句,如果该语句为函数调用,不会进入函数内部		  	    执行(即不会一步步地调试函数内部语句)
+
+print	p		打印内部变量值
+
+continue c		继续程序的运行,直到遇到下一个断点
+
+set varname=v		设置变量的值
+
+start	st		开始执行程序,在main函数的第一条语句前面停下来
+
+file			装入需要调试的程序
+
+kill	k		终止正在调试的程序
+
+watch			监视变量值的变化,当变化时程序自动暂停
+
+backtrace bt		查看函数调用信息(堆栈)
+
+frame	f		查看栈帧
+
+quit 	q		退出GDB环境
+
+where    		查看程序出错的地方
+
+shell + command执行shell命令
+
+$shell ls    		显示当前目录里文件
+
+关闭退出确认信息：
+	set confirm off
+info  :
+	del/i display
+	del/i breakpoints
+	i registers    	显示寄存器
+	i functions 
+	
+disassemble <function>  : 显示函数汇编代码
+
+当程序暂停后，“frame n”命令选择函数堆栈帧;“up n”或“down n”命令向上或向下选择函数堆栈帧，其中n是层数.backtrace 查看函数调用信息
+
+断点：	tbreak(临时断点，缩写为tb,断点被命中一次后，就被删掉了)
+	break if <condition> 条件断点  在循环i++中，当i==100断点生效
+break *address 可通过info file / disassemble main找到main函数地址进入main
+在gdb中，可以使用如下命令将设置的断点保存下来：
+	(gdb) save breakpoints file-name-to-save
+下次调试时，可以使用如下命令批量设置保存的断点：
+	(gdb) source file-name-to-save
+
+
+

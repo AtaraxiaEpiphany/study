@@ -1,0 +1,15 @@
+1.	mv source_file(文件) dest_file(文件)
+
+	将源文件名 source_file 改为目标文件名 dest_file
+
+2.	mv source_file(文件) dest_directory(目录)
+
+	将文件 source_file 移动到目标目录 dest_directory 中
+
+3.	mv source_directory(目录) dest_directory(目录)
+
+        目录名dest_directory已存在，将source_directory移动到目dest_directory 中;目录名dest_directory不存在则source_directory 改名为目录名 dest_directory
+
+4.	mv source_directory(目录) dest_file(文件)
+
+	出错
