@@ -1,0 +1,18 @@
+	new a desktop shortcut.
+fisrt : $touch app.desktop
+
+second：$vim app.desktop
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=application 	//快捷方式名称
+Comment=application	//备注
+Exec=~/address 		//执行指令的绝对路径
+Icon=~/app.png	 	//快捷方式icon的绝对路径
+Terminal=false 		//打开软件的时候是否代开终端
+StartupNotify=true	//打开通知
+Type=Application	//类型
+Categories=Application 	//分类
+
+third:
+	$chmod u+x app.desktop  //添加user可执行权限
