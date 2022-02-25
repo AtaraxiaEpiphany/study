@@ -65,5 +65,35 @@ break *address 可通过info file / disassemble main找到main函数地址进入
 下次调试时，可以使用如下命令批量设置保存的断点：
 	(gdb) source file-name-to-save
 
+汇编(assemble):
 
+	disassemble function :在Intel x86处理器上，gdb默认显示汇编指令格式是AT&T格式
+	set disassembly-flavor inter/att :将格式改为intel格式或者AT&T格式
+
+	break *function :断点设置在汇编指令层次函数的开头
+	
+	nexti :下一条机器指令 ni
+	stepi ：下一条机器指令si
+	
+	set disassemble-next-line on/auto/off :在任意情况下反汇编后面要执行的代码;在后面的代码没有源码的情况下才反汇编后面要执行的代码;关闭该功能
+
+	disassemble /m function:将函数代码和汇编指令映射起来
+
+	info line n:查看第n行地址范围，可disassemble [Start],[End]查看对应汇编代码
+
+
+打印：
+	backtrace full n”，意思是(从内向外显示n个栈桢)，及其局部变量
+	“x”命令来打印内存的值，格式为“x/nfu addr”。含义为以f格式打印从addr开始的n个长度单元为u的内存值(可打印连续数组)
+		a）n：输出单元的个数。
+		b）f：是输出格式。比如x是以16进制形式输出，o是以8进制形式输出,等等。
+		c）u：标明一个单元的长度。b是一个byte，h是两个byte（halfword），w是四个byte（word），g是八个byte（giant word）
+
+	ptype var :显示变量详细类型
+	
+	list (l): l + ;l - ;list [start],[end] :from start to end list 
+	
+	
+	
+	
 
