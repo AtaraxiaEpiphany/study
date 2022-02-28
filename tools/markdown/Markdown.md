@@ -3,7 +3,7 @@
 
 #  Markdown
 
-##  <a id = "1">1️⃣代码块</a>
+##  <a id = "1">代码块</a>
 
 ````markdown
 // 代码块 语法
@@ -21,7 +21,7 @@
   代码...
 ```
 
-<a name = "1">2️⃣标题</a>
+##  <a name = "2">标题</a>
 
 // ##  标题  
 
@@ -34,7 +34,7 @@
 ###### 六级标题
 ```
 
-##  3️⃣字体
+##  字体
 
 ###  字体语法
 
@@ -61,7 +61,7 @@
 4. *一个星号 + 字体 + 一个星号*
 4. ***三个星号+字体+三个星号***
 
-##  4️⃣引用
+##  引用
 
  ### 引用语法
 
@@ -87,7 +87,7 @@
 
 
 
-##  5️⃣分割线
+##  分割线
 
 ###  分隔线语法
 
@@ -106,7 +106,7 @@
 
 ​	//	三个减号
 
-##  ⑥图片插入
+##  图片插入
 
 ###  相应语法
 
@@ -121,7 +121,7 @@
 - <img src="C:\Users\AClockworkOrange\Desktop\Pictures\QQ图片20210308154423.jpg" alt="Jerk" style="zoom:25%;" />
 - <img src="https://gss0.baidu.com/-fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/08f790529822720e329623bc76cb0a46f21fab18.jpg" alt="李健" style="zoom:25%;" />
 
-##  ⑦超链接
+##  超链接
 
 ###  语法
 
@@ -135,7 +135,7 @@
 
 [ucore7种工具](https://github.com/chyyuu/ucore_os_docs/blob/master/lab0/lab0_ref_ucore-tools.md)
 
-##  8️⃣列表
+##  列表
 
 ## 语法
 
@@ -161,7 +161,7 @@
 3. 任务列表
    - - [ ] ​	//	-+空格+[空格]+空格+内容
 
-##  ⑨表格
+##  表格
 
 ###  语法
 
@@ -187,9 +187,9 @@
 
 
 
-##  ⑩锚点
+##  锚点
 
-##  语法
+###  语法
 
 ```html
 //
@@ -207,11 +207,11 @@
 
 2. 方法2
 
-   - <a href= "#1">标题</a>
+   - <a href= "#2">标题</a>
    - 
 
    
 
-#  流程图
+##  流程图
 
 + [流程图详解](https://blog.csdn.net/suoxd123/article/details/84992282?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522164592907916780366538270%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=164592907916780366538270&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_ulrmf~default~default-3-84992282.pc_search_insert_ulrmf&utm_term=markdown+%E6%B5%81%E7%A8%8B%E5%9B%BE&spm=1018.2226.3001.4187)
