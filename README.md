@@ -3,3 +3,4 @@
 - [linuxCommand](https://www.runoob.com/linux/linux-command-manual.html)
 - [Makefile](https://seisman.github.io/how-to-write-makefile/overview.html)
 - [gdb](https://wizardforcel.gitbooks.io/100-gdb-tips/content/index.html)
+- [markdown guidebook](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#)
