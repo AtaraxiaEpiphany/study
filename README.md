@@ -4,3 +4,4 @@
 - [Makefile](https://seisman.github.io/how-to-write-makefile/overview.html)
 - [gdb](https://wizardforcel.gitbooks.io/100-gdb-tips/content/index.html)
 - [markdown guidebook](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#)
+- [gitbook](http://www.chengweiyang.cn/gitbook/introduction/README.html)
