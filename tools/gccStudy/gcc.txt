@@ -9,15 +9,15 @@ gcc命令下各选项的含义
 
 gcc编译的四个步骤 
 
-    预处理(Pre-processing)：      gcc -E Test.c -o Test.i
-    编译(Compiling)：             gcc -S Test.i -o Test.s
-    汇编(Assembling)：            gcc -c Test.s -o Test.o
-    链接生成可执行文件(Linking)： gcc Test.o -o Test
+    预处理(Pre-processing)：($cpp)      gcc -E Test.c -o Test.i
+    编译(Compiling)：       ($cc1)      gcc -S Test.i -o Test.s
+    汇编(Assembling)：      ($as )      gcc -c Test.s -o Test.o
+    链接生成可执行文件(Linking)：($ld)  gcc Test.o -o Test
 
 1.gcc的-E选项，可以让编译器在预处理后停止,并输出预处理结果.
 2.gcc的-S选项，表示在程序编译期间,将我们的代码编译成汇编语言.
-3.gcc的-c选项，表示由汇编器负责将刚才的.s文件编译输出为目标文件(.o文件),即计算机所能识别的序列(二进制文件) object file : .obj in Windows  .o in Linux
-4.gcc Test.o , 将刚才的Test.o文件与Ｃ标准输入输出库进行连接,最终生成程序Test可执行文件.
+3.gcc的-c选项，表示由汇编器负责将刚才的.s文件编译输出为目标文件(.o可重定位目标文件),即计算机所能识别的序列(二进制文件) object file : .obj in Windows  .o in Linux
+4.gcc Test.o , 将刚才的Test.o文件与Ｃ标准输入输出库(比如print.o)进行连接,最终生成程序Test可执行文件.
 5.$./Test
 
 可以直接gcc -Wall Test.c -o test 得到可执行文件test
