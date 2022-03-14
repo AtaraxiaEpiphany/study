@@ -1,6 +1,6 @@
 - [rcore](https://rcore-os.github.io/rCore-Tutorial-Book-v3/chapter0/index.html#)
 - [ucore](https://learningos.github.io/ucore_os_webdocs/)
-- [NJU-OS](http://jyywiki.cn/OS/2022/)
+- [NJU-OS](http://jyywiki.cn/OS/2021/)
 - [linuxCommand](https://www.runoob.com/linux/linux-command-manual.html)
 - [Makefile](https://seisman.github.io/how-to-write-makefile/overview.html)
 - [gdb](https://wizardforcel.gitbooks.io/100-gdb-tips/content/index.html)
