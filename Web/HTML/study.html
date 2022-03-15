@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>study</title>
+</head>
+<body>
+<h1>基本标记</h1>
+
+<h2>Paragraph</h2>
+<xmp>标记符原样输出</xmp>
+<p >第一段</p>第二段<br>
+<b>bold加粗</b><br>
+<i>italics斜体</i><br>
+<b><xmp><!-- 注释 --></xmp></b><br>
+<b><xmp><br></xmp></b>break断行<br>
+<b><xmp><wbr>wordbreak</wbr></xmp></b><br>
+<hgroup>headgroup标题组</hgroup><br>
+<del>delete删除线</del><br>
+<ins>insert插入线</ins><br>
+x<sub>2</sub>+x<sup>2</sup><br>
+<h2>短语格式</h2>
+<em>em强调</em><br>
+<strong>strong着重</strong><br>
+<code>code代码</code><br>
+<samp>sample例子代码consolas</samp><br>
+<dfn>definition定义</dfn><br>
+<kbd>kbd用户输入</kbd><br>
+<var>varable变量</var><br>
+<cite>cite引用</cite><br>
+
+<h1>特殊样式和属性</h1>
+<h2>特殊格式</h2>
+<xmp><blockquote>在某个内容里缩进,如address</blockquote></xmp>
+<address id="here"><blockquote><br>赣州市章贡区<br><blockquote>赣州三中</blockquote></blockquote></address><br>
+<q>引用</q>
+<pre>
+<strong><b>
+int main(){
+    printf("Hello World!\n");
+    return 0;
+}//pre预格式化
+</b></strong>
+</pre>
+
+<h2>属性</h2>
+<hr size="50%" width="50%" align="left" color="red">
+分割线,可以设置属性 size,width,align,color.但不提倡<br>
+<bdo dir="rtl">bdo dir这是一段反向字体</bdo><br>
+<abbr title="abbr含义">缩写,可设置标题</abbr><br>
+<em>特殊字符</em><br>
+<xmp>&gt;:大于</xmp>
+<xmp>&lt;:小于</xmp>
+<xmp>&nbsp;:空格</xmp>
+<xmp>&uuml;:小u</xmp>
+<xmp>&Uuml;:大U</xmp>
+<xmp>&amp;:&</xmp>
+
+<h1>列表,图片,表格,链接</h1>
+<h2>列表</h2>
+<ul>
+    <li>unordered list无序列表</li>
+    <blockquote><li>list item</li></blockquote>
+</ul>
+
+<ol start="6">
+    <li>ordered list有序列表</li>
+    <li>可嵌套</li>
+    <ul>
+        <li>这是一个嵌套</li>
+    </ul>
+    <li>list item</li>
+    <li>可设置start in ol</li>
+    <li >this is a start test</li>
+</ol>
+<h2>image</h2>
+<img src="https://img-ph-mirror.nosdn.127.net/K-XG6RN6K8fwOpvtxa1HAg==/6598300120167569639.jpg?imageView&type=webp" alt="Javascrpt">
+<br>
+小窗口frame
+<br>
+<iframe src="https://www.icourse163.org/home.htm?userId=1400372976#/home/course"></iframe>
+
+<h2>链接</h2>
+<a href="http://www.baidu.com" target="_blank">百度</a>
+<a href="#here" >锚点</a><br>
+<a href="http://github.com" target="_blank">新建窗口打开链接target</a>
+<b>image usemap图片映射</b><br>
+<img src="https://img-ph-mirror.nosdn.127.net/K-XG6RN6K8fwOpvtxa1HAg==/6598300120167569639.jpg?imageView&type=webp" usemap="#map">
+<map name="map">
+    <area shape="rect" coords="0,0,50,50" href="http://baidu.com">
+</map>
+
+
+</body>
+</html>
