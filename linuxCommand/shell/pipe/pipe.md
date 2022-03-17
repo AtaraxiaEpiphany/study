@@ -19,3 +19,9 @@
 command > file 将 stdout 重定向到 file,command < file将stdin重定向到file
 如果希望 stderr 重定向到 file, $command 2> file
 ```
+###管道
+
+```command a | command b
+将命令a的stdout作为命令b的stdin
+```
+

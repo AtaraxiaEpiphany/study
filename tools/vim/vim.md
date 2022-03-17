@@ -1,4 +1,4 @@
-	
+- [vim攻略](https://blog.csdn.net/weixin_43250623/article/details/88722389)	
 - [vim参考手册](https://www.runoob.com/linux/linux-vim.html)
 
 # vim介绍
@@ -71,6 +71,11 @@
 	- :n1,n2s/word1/word2/g 	n1 与 n2 为数字。在第 n1 与 n2 行之间寻找 word1 这个字符串，并将该字符串取代为 word2 ！举例来说，在 100 到 200 行之间搜寻 vbird 并取代为 VBIRD 则 :100,200s/vbird/VBIRD/g』。(常用)
 	- :1,$s/word1/word2/g 或 :%s/word1/word2/g 	从第一行到最后一行寻找 word1 字符串，并将该字符串取代为 word2 ！(常用)
 	- :1,$s/word1/word2/gc 或 :%s/word1/word2/gc 	从第一行到最后一行寻找 word1 字符串，并将该字符串取代为 word2 ！且在取代前显示提示字符给用户确认 (confirm) 是否需要取代！(常用)	
+
+## 选中文本(可视模式)
+	-v   		从光标位置开始按照正常模式选择文本
+	-V   		选中光标经过的完整行
+	-Ctrl + v	垂直方向选中文本
 
 ## 删除,复制,粘贴:
 	- x, X	在一行字当中，x 为向后删除一个字符 (相当于 [del] 按键)， X 为向前删除一个字符(相当于 [backspace] 亦即是退格键) (常用)
