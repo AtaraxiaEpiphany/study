@@ -21,7 +21,8 @@ command > file 将 stdout 重定向到 file,command < file将stdin重定向到fi
 ```
 ###管道
 
-```command a | command b
+```
+command a | command b
 将命令a的stdout作为命令b的stdin
 ```
 
