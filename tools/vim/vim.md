@@ -1,5 +1,6 @@
-- [vim攻略](https://blog.csdn.net/weixin_43250623/article/details/88722389)	
-- [vim参考手册](https://www.runoob.com/linux/linux-vim.html)
+- [vim参考手册](https://yianwillis.github.io/vimcdoc/doc/help.html)
+
+
 
 # vim介绍
 - ```vim键盘图```
