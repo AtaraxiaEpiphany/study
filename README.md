@@ -7,3 +7,4 @@
 - [markdown guidebook](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#)
 - [gitbook](https://yuzeshan.gitbooks.io/gitbook-studying/content/publish/gitpages.html)
 - [NJU_PA](https://nju-projectn.github.io/ics-pa-gitbook/ics2019/)
+- [ucore_gitbook](https://kiprey.github.io/archives/page/6/)
