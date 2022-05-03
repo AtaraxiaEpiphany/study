@@ -5,6 +5,6 @@
 - [Makefile](https://seisman.github.io/how-to-write-makefile/overview.html)
 - [gdb](https://wizardforcel.gitbooks.io/100-gdb-tips/content/index.html)
 - [markdown guidebook](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#)
-- [gitbook](https://yuzeshan.gitbooks.io/gitbook-studying/content/publish/gitpages.html)
+- [gitbook](https://tonydeng.github.io/gitbook-zh/gitbook-howtouse/howtouse/gitbookcli.html)
 - [NJU_PA](https://nju-projectn.github.io/ics-pa-gitbook/ics2019/)
 - [ucore_gitbook](https://kiprey.github.io/archives/page/6/)
