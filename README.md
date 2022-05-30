@@ -8,3 +8,4 @@
 - [gitbook](https://tonydeng.github.io/gitbook-zh/gitbook-howtouse/howtouse/gitbookcli.html)
 - [NJU_PA](https://nju-projectn.github.io/ics-pa-gitbook/ics2019/)
 - [ucore_gitbook](https://kiprey.github.io/archives/page/6/)
+- [SICP](https://nju-sicp.bitbucket.io/)
