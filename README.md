@@ -11,3 +11,4 @@
 - [SICP](https://nju-sicp.bitbucket.io/)
 - [search](https://dir.scmor.com/)
 - [c language](https://docs.huihoo.com/c/linux-c-programming/)
+- [how to ask](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md)
