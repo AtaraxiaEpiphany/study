@@ -10,3 +10,4 @@
 - [ucore_gitbook](https://kiprey.github.io/archives/page/6/)
 - [SICP](https://nju-sicp.bitbucket.io/)
 - [search](https://dir.scmor.com/)
+- [c language](https://docs.huihoo.com/c/linux-c-programming/)
