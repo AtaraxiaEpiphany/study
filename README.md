@@ -6,11 +6,12 @@
 - [gdb](https://wizardforcel.gitbooks.io/100-gdb-tips/content/index.html)
 - [markdown guidebook](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#)
 - [gitbook](https://tonydeng.github.io/gitbook-zh/gitbook-howtouse/howtouse/gitbookcli.html)
+- [read list](http://jyywiki.cn/Reading_List)
 - [NJU_PA](https://nju-projectn.github.io/ics-pa-gitbook/ics2019/)
 - [ucore_gitbook](https://kiprey.github.io/archives/page/6/)
 - [SICP](https://nju-sicp.bitbucket.io/)
 - [search](https://dir.scmor.com/)
 - [c language](https://docs.huihoo.com/c/linux-c-programming/)
-- [how to ask](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md)-
+- [how to ask ](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md)
 - [tools](https://downloaddevtools.com/en)
 - [docs as code ](https://docs-as-co.de/)
