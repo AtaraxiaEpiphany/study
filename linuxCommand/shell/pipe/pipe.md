@@ -1,4 +1,6 @@
+- [Redirection](https://www.guru99.com/linux-redirection.html)
 ## shell脚本流
+
 ` 标准输入(stdin ) - 0`
 
 ` 标准输出(stdout) - 1`	
